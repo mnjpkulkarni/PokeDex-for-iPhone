@@ -48,9 +48,9 @@ class PokemonDetailVC: UIViewController {
         descriptionLbl.text = pokemon.description
         typeLbl.text = pokemon.type
         defenseLbl.text = pokemon.defense
-        baseAttackLbl.text = pokemon.attack
-        heightLbl.text = pokemon.height
-        weightLbl.text = pokemon.weight
+        baseAttackLbl.text = "\(pokemon.attack)"
+        heightLbl.text = "\(pokemon.height)"
+        weightLbl.text = "\(pokemon.weight)"
         pokedexIdLbl.text = "\(pokemon.pokedexId)"
         
         if pokemon.nextEvolutionId == "" {
