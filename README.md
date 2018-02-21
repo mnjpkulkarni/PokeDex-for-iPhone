@@ -12,7 +12,6 @@ Instructions to configure Alamofire:
 Open terminal
 Go to the downloaded project folder in the terminal.
 Install cocoapods by typing "sudo $ gem install Cocoapods" in the terminal.
-Type pod init and enter
 Type pod install and enter.
 Then, open the file with the extension ".xcworkspace"
 Run
